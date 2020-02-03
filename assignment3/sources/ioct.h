@@ -1,0 +1,11 @@
+#ifndef IOCTHEADER_h
+#define IOCTHEADER_h
+
+#define DM510_IOC_MAGIC 9
+
+#define IOC_RESETBUFFER _IO(DM510_IOC_MAGIC, 0)
+#define IOC_RESETPROC _IO(DM510_IOC_MAGIC, 1)
+
+#define IOC_NUMCASES 2
+
+#endif
